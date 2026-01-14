@@ -1,0 +1,11 @@
+- name: Allow tftp service through the firewall permanently
+  ansible.posix.firewalld:
+    service: 
+      - tftp
+      - httpd
+    permanent: true
+    state: enabled
+
+- name: Reload firewalld to apply changes
+  ansible.builtin.command: firewall-cmd --reload
+

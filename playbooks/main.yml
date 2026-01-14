@@ -2,4 +2,4 @@
   hosts: local
   become: true
   roles:
-   - dhcp
+   - tftp

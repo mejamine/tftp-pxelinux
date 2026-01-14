@@ -1,0 +1,13 @@
+dns_server_ip: 192.168.140.10
+bootstrap_mac_pxe: 01-52-54-00-00-32-09
+master01_mac_pxe: 01-52-54-00-00-32-0a
+master02_mac_pxe: 01-52-54-00-00-32-0b
+master03_mac_pxe: 01-52-54-00-00-32-0c
+worker01_mac_pxe: 01-52-54-00-00-32-0d
+worker02_mac_pxe: 01-52-54-00-00-32-0e
+kernel: rhcos-4.20.0-x86_64-live-kernel-x86_64
+rootfs: rhcos-4.20.0-x86_64-live-rootfs.x86_64.img
+initramfs: rhcos-4.20.0-x86_64-live-initramfs.x86_64.img
+master: master.ign
+worker: worker.ign
+bootstrap: bootstrap.ign

@@ -1,6 +1,0 @@
-- name: Install dhcp-server
-  dnf:
-    name: dhcp-server
-    state: present
-
-    
