@@ -1,11 +1,8 @@
 - name: Allow tftp service through the firewall permanently
-  ansible.posix.firewalld:
-    service: 
-      - tftp
-      - http
-    zone: public
-    permanent: true
-    state: enabled
+  ansible.builtin.command: firewall-cmd --add-service=tftp --permanent
+
+- name: allow http service through the firewall permanently
+  ansible.builtin.command: firewall-cmd --add-service=http --permanent
 
 - name: Reload firewalld to apply changes
   ansible.builtin.command: firewall-cmd --reload
