@@ -2,3 +2,4 @@
 - include_tasks: firewall.yml
 - include_tasks: configure.yml
 - include_tasks: boot_menues.yml
+- include_tasks: tftp_start.yml
