@@ -26,3 +26,5 @@
         - /usr/share/syslinux/memdisk
         - /usr/share/syslinux/chain.c32
         - /usr/share/syslinux/mboot.c32
+        - /usr/share/syslinux/ldlinux.c32
+        - /usr/share/syslinux/libutil.c32
