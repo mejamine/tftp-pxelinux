@@ -3,6 +3,7 @@
     service: 
       - tftp
       - http
+    zone: public
     permanent: true
     state: enabled
 
